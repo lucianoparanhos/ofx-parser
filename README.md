@@ -31,6 +31,18 @@ Este projeto é de natureza acadêmica e está sendo desenvolvido como parte dos
 - Swift 6
 - Swift Package Manager (SPM)
 
+## Testes
+
+Este projeto utiliza o novo sistema de testes introduzido no Swift 5.9: **Swift Testing**.  
+A abordagem é moderna, baseada em estruturas com `@Test` e uso de `#expect`, oferecendo uma sintaxe mais expressiva e integrada com o Xcode 15 ou superior.
+
+Os testes estão localizados no diretório `Tests/OFXParserTests` e são executados diretamente no Xcode ou via linha de comando com:
+
+```bash
+swift test
+```
+
+
 ## Licença
 
 Este projeto é de uso acadêmico e sem fins comerciais. Está licenciado sob os termos da [MIT License](LICENSE), permitindo estudo, modificação e uso livre com atribuição.
