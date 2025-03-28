@@ -42,6 +42,22 @@ Os testes estão localizados no diretório `Tests/OFXParserTests` e são executa
 swift test
 ```
 
+## Exemplo de uso
+
+```swift
+import OFXParser
+
+let conteudoOFX = """
+// conteúdo .ofx aqui como string
+"""
+
+let resultado: ResultadoOFX = AnalisadorOFX.parse(ofxContent: conteudoOFX)
+
+print("Banco: \(resultado.banco)")
+print("Tipo de conta: \(resultado.tipoConta)")
+print("Transações: \(resultado.transacoes.count)")
+```
+
 
 ## Licença
 
