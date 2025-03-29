@@ -19,7 +19,10 @@ let package = Package(
         ),
         .testTarget(
             name: "OFXParserTests",
-            dependencies: ["OFXParser"]
+            dependencies: ["OFXParser"],
+            resources: [
+                .copy("../Resources/Nubank_Exemplo.ofx")
+            ]
         ),
     ]
 )

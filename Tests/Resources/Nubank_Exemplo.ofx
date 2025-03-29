@@ -1,0 +1,1756 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+                <CODE>0</CODE>
+                <SEVERITY>INFO</SEVERITY>
+            </STATUS>
+            <DTSERVER>20250202034818[0:GMT]</DTSERVER>
+            <LANGUAGE>POR</LANGUAGE>
+            <FI>
+                <ORG>NU PAGAMENTOS S.A.</ORG>
+                <FID>260</FID>
+            </FI>
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <CREDITCARDMSGSRSV1>
+        <CCSTMTTRNRS>
+            <TRNUID>1001</TRNUID>
+            <STATUS>
+                <CODE>0</CODE>
+                <SEVERITY>INFO</SEVERITY>
+            </STATUS>
+            <CCSTMTRS>
+                <CURDEF>BRL</CURDEF>
+                <CCACCTFROM>
+                    <ACCTID>xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</ACCTID>
+                </CCACCTFROM>
+                <BANKTRANLIST>
+                    <DTSTART>20240825000000[-3:BRT]</DTSTART>
+                    <DTEND>20240924000000[-3:BRT]</DTEND>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240923000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-70.00</TRNAMT>
+                        <FITID>66f0822f-ad67-4484-a67e-b0018f7054bc</FITID>
+                        <MEMO>Lo.Cafe</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240923000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-6.00</TRNAMT>
+                        <FITID>66f00226-c64f-4971-86a1-6c3bad8695f4</FITID>
+                        <MEMO>Mp *Camila</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240923000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-10.00</TRNAMT>
+                        <FITID>66f00509-5a92-4843-8876-84fd20a1e148</FITID>
+                        <MEMO>Barracadobicu</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240923000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-5.00</TRNAMT>
+                        <FITID>66f0037e-d24b-4c83-8f44-00d1518ddf8e</FITID>
+                        <MEMO>Pg *Ton Tj Legumes S</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240922000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-151.77</TRNAMT>
+                        <FITID>66ef2f80-2781-4022-ae68-1fbb3275f35a</FITID>
+                        <MEMO>Drogaria Sao Paulo</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240922000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-19.90</TRNAMT>
+                        <FITID>66eee9fe-6853-4029-b0ef-9aedb3e0b03a</FITID>
+                        <MEMO>Amazonprimebr</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240922000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.00</TRNAMT>
+                        <FITID>66eee874-2047-4a03-a216-a9afdc1ad146</FITID>
+                        <MEMO>Bar e Lanches la em Ca</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240921000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-16.00</TRNAMT>
+                        <FITID>66ede390-4379-4db4-af4c-ba917724b975</FITID>
+                        <MEMO>Bar do Ze</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240921000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-12.00</TRNAMT>
+                        <FITID>66ee0946-b147-45ce-aa4f-cf585162fb0e</FITID>
+                        <MEMO>Bar do Ze</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240921000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-20.00</TRNAMT>
+                        <FITID>66ed9f13-66c0-4e6e-9f1b-c30dc68edb5d</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240921000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.80</TRNAMT>
+                        <FITID>66edae79-f2c7-4256-8740-64f31f8fa732</FITID>
+                        <MEMO>Vita Mia</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240921000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-24.00</TRNAMT>
+                        <FITID>66edadc3-39c6-4c28-aa41-33a4bc7942bd</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240921000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-18.99</TRNAMT>
+                        <FITID>66edccfd-4004-4a5f-8f50-764855f8ce0b</FITID>
+                        <MEMO>Emporio Azuki</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT</TRNTYPE>
+                        <DTPOSTED>20240920000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>6291.93</TRNAMT>
+                        <FITID>66eda171-324f-4924-a5f5-d0baf896e209</FITID>
+                        <MEMO>Pagamento recebido</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240920000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-232.48</TRNAMT>
+                        <FITID>66d1f795-090c-4caf-9780-9302cccbd2bf</FITID>
+                        <MEMO>Azul Linhas Bw6yyk - Parcela 2/6</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240920000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-89.90</TRNAMT>
+                        <FITID>66ec40c7-985a-4175-97fe-7e8780d508f7</FITID>
+                        <MEMO>Apple.Com/Bill</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT</TRNTYPE>
+                        <DTPOSTED>20240920000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>28.78</TRNAMT>
+                        <FITID>66d1f795-090c-4caf-9780-9302cccbd2bf</FITID>
+                        <MEMO>Desconto Antecipação Azul Linhas Bw6yyk</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240920000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-23.60</TRNAMT>
+                        <FITID>66ec5c3a-acaf-4c1a-8035-5142e6c03263</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240920000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-232.48</TRNAMT>
+                        <FITID>66d1f795-090c-4caf-9780-9302cccbd2bf</FITID>
+                        <MEMO>Azul Linhas Bw6yyk - Parcela 3/6</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240920000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-8.19</TRNAMT>
+                        <FITID>66ec1597-2c11-4191-985a-3907b2e85154</FITID>
+                        <MEMO>Oxxo Galpao Consolacao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240920000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-232.48</TRNAMT>
+                        <FITID>66d1f795-090c-4caf-9780-9302cccbd2bf</FITID>
+                        <MEMO>Azul Linhas Bw6yyk - Parcela 5/6</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240920000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-16.00</TRNAMT>
+                        <FITID>66ec9768-c602-4750-be85-1a92b14873ba</FITID>
+                        <MEMO>Bar do Ze</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240920000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-21.60</TRNAMT>
+                        <FITID>66ec4d48-53b2-4481-aa9e-e256dfe9727d</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240920000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-12.00</TRNAMT>
+                        <FITID>66ecb74a-c6d2-4a47-9d37-efa4711319b2</FITID>
+                        <MEMO>Bar do Ze da Maria An</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240920000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.00</TRNAMT>
+                        <FITID>66ec4e02-89aa-4261-a13b-b6bba2bfe6b6</FITID>
+                        <MEMO>Bar e Lanches la em Ca</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240920000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-232.48</TRNAMT>
+                        <FITID>66d1f795-090c-4caf-9780-9302cccbd2bf</FITID>
+                        <MEMO>Azul Linhas Bw6yyk - Parcela 4/6</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240920000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-232.48</TRNAMT>
+                        <FITID>66d1f795-090c-4caf-9780-9302cccbd2bf</FITID>
+                        <MEMO>Azul Linhas Bw6yyk - Parcela 6/6</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240920000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-10.00</TRNAMT>
+                        <FITID>66ec3aee-9f0f-43d3-beb4-c08fda378cf7</FITID>
+                        <MEMO>Segredo Assados</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240919000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-43.65</TRNAMT>
+                        <FITID>66eb2f6f-84d1-4c7e-b121-44761a4ef08c</FITID>
+                        <MEMO>Princesa Sbento</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240919000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.00</TRNAMT>
+                        <FITID>66eafe34-a165-477c-a4b1-40379ea6ff3f</FITID>
+                        <MEMO>Simpatia Gaucha Consol</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240919000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-6.00</TRNAMT>
+                        <FITID>66eac250-160b-4ef0-b87d-98c65da4a5de</FITID>
+                        <MEMO>Estrela da Consolacao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240919000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-8.19</TRNAMT>
+                        <FITID>66eac207-87c2-46bc-bf9f-37ebce44a98d</FITID>
+                        <MEMO>Oxxo Galpao Consolacao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240919000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-14.40</TRNAMT>
+                        <FITID>66eb0615-c3c8-434f-972c-e89cccfd61aa</FITID>
+                        <MEMO>Vita Mia e Cia</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240918000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-20.80</TRNAMT>
+                        <FITID>66e9a983-77ae-42b9-ae08-6d9107bc3a32</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240918000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-5.50</TRNAMT>
+                        <FITID>66ea12d0-115d-4946-a910-e6004e5a850e</FITID>
+                        <MEMO>Bar do Ze</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240918000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-24.00</TRNAMT>
+                        <FITID>66e9b942-b0ab-4067-9a2b-099dd7d4edfa</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240918000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-9.69</TRNAMT>
+                        <FITID>66e97492-3691-45d7-8f84-b2f7e0023ff0</FITID>
+                        <MEMO>Oxxo Galpao Consolacao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240918000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-16.00</TRNAMT>
+                        <FITID>66e9f04c-35df-469e-8248-3f31eae9c909</FITID>
+                        <MEMO>Bar do Ze da Maria An</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240918000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.00</TRNAMT>
+                        <FITID>66e9aa09-969f-4107-a1a0-3f2fda2898e2</FITID>
+                        <MEMO>Bar e Lanches la em Ca</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240917000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-7.48</TRNAMT>
+                        <FITID>66e82085-2326-46b1-a44b-310e4d6cf348</FITID>
+                        <MEMO>Oxxo Estacao Higienopo</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240917000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-27.60</TRNAMT>
+                        <FITID>66e8c895-9fe5-4f67-b8f5-c81c3f998f5e</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240917000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-18.00</TRNAMT>
+                        <FITID>66e85f4f-f5c6-4c6b-9a77-3953c000e875</FITID>
+                        <MEMO>Vita Mia e Cia</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240917000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.00</TRNAMT>
+                        <FITID>66e85ca3-76eb-414b-8ec9-1254041103e1</FITID>
+                        <MEMO>Simpatia Gaucha Consol</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240917000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-33.39</TRNAMT>
+                        <FITID>66e87308-32ce-4011-9c03-f5d85d73537d</FITID>
+                        <MEMO>Armarinhos Fernando</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240917000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-33.28</TRNAMT>
+                        <FITID>66e85e5f-fee1-46e6-a56c-9a324623435b</FITID>
+                        <MEMO>Kalunga Consolacao - Parcela 1/3</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT</TRNTYPE>
+                        <DTPOSTED>20240916000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>3023.86</TRNAMT>
+                        <FITID>66e824e8-3ac3-45a7-8af9-119db6aafad7</FITID>
+                        <MEMO>Pagamento recebido</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240916000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-91.96</TRNAMT>
+                        <FITID>66e74b3e-7edb-42a1-acf4-67c5b4f963a3</FITID>
+                        <MEMO>Ec *Farmingbox</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240915000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-119.66</TRNAMT>
+                        <FITID>66e592c1-30d9-4d49-a854-be211ed856b7</FITID>
+                        <MEMO>Mercadolivre*Saofranc</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240915000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-50.00</TRNAMT>
+                        <FITID>66e5b03b-4e14-457b-b6d5-d5a5f24f9c84</FITID>
+                        <MEMO>Bar e Lanches la em Ca</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240914000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-10.59</TRNAMT>
+                        <FITID>66e42ac5-0565-4399-a54d-c72ccffc64cc</FITID>
+                        <MEMO>Oxxo Estacao Higienopo</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240914000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-10.00</TRNAMT>
+                        <FITID>66e4567a-118f-4c90-98f9-55017a93a995</FITID>
+                        <MEMO>Segredo Assados</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240914000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-73.36</TRNAMT>
+                        <FITID>66e4519c-d8b7-4391-a125-f58479754776</FITID>
+                        <MEMO>Farmalise</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240914000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-19.06</TRNAMT>
+                        <FITID>66e4231f-931f-49ea-939a-572ed0728a26</FITID>
+                        <MEMO>Mercadolivre*Jkqualit - Parcela 1/3</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240914000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-16.00</TRNAMT>
+                        <FITID>66e4a973-5532-4e8b-999e-52eb5f5db5e5</FITID>
+                        <MEMO>Bar do Ze</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240914000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-19.83</TRNAMT>
+                        <FITID>66e46ec6-1286-41e9-b5b0-992fa46a5b34</FITID>
+                        <MEMO>Acai da Barra Mackenzi</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240914000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-7.90</TRNAMT>
+                        <FITID>66e4cb48-2ab8-49fb-9918-80d79d14d573</FITID>
+                        <MEMO>Mr Cheney</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240914000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.00</TRNAMT>
+                        <FITID>66e467d7-01de-4057-b913-3cce7c2aa29f</FITID>
+                        <MEMO>Simpatia Gaucha Consol</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240913000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-6.99</TRNAMT>
+                        <FITID>66e300ed-69be-4b5d-9b9d-7153174ff87a</FITID>
+                        <MEMO>Bdesmamiranda</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240913000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-24.98</TRNAMT>
+                        <FITID>66e2db9d-8a3f-48ab-bd41-1d06527e9a4b</FITID>
+                        <MEMO>Oxxo Galpao Consolacao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240913000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.00</TRNAMT>
+                        <FITID>66e315e7-032f-4637-a0e2-0cc30d62f939</FITID>
+                        <MEMO>Simpatia Gaucha Consol</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240913000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-136.99</TRNAMT>
+                        <FITID>66e2213f-250d-45de-9516-e132df3757b0</FITID>
+                        <MEMO>Ifd*Lanchonete Mugui L</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240913000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-15.48</TRNAMT>
+                        <FITID>66e31732-5dff-4d77-b34e-88b25a5332bb</FITID>
+                        <MEMO>Oxxo Galpao Consolacao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT</TRNTYPE>
+                        <DTPOSTED>20240912000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>500.00</TRNAMT>
+                        <FITID>66e31585-4efe-46d8-86b1-7a3af5135607</FITID>
+                        <MEMO>Pagamento recebido</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240912000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-22.80</TRNAMT>
+                        <FITID>66e1d184-24d0-4744-8664-041cab3b1608</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240912000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-63.00</TRNAMT>
+                        <FITID>66e24d88-6d71-4239-9699-7639292ebffb</FITID>
+                        <MEMO>Eduardo Hermo Pedroso</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240912000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-11.98</TRNAMT>
+                        <FITID>66e18a7d-38a5-49e8-bf81-cbeffda95345</FITID>
+                        <MEMO>Oxxo Galpao Consolacao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240912000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.44</TRNAMT>
+                        <FITID>66e22030-36cc-450c-af92-d4cac2805e7a</FITID>
+                        <MEMO>Mercado Extra-0056</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240912000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-18.80</TRNAMT>
+                        <FITID>66e1c187-63c8-4424-b89d-cb80fffe3230</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240912000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.00</TRNAMT>
+                        <FITID>66e1c274-f264-4601-86f8-90f2bf37cdef</FITID>
+                        <MEMO>Bar e Lanches la em Ca</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240912000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-69.20</TRNAMT>
+                        <FITID>66e2406c-f735-48c7-8775-e16d9fe772c1</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240911000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-24.00</TRNAMT>
+                        <FITID>66e07f70-b9da-4e43-acee-eb65fae0ba86</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240911000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-22.40</TRNAMT>
+                        <FITID>66e07062-beae-454c-b686-0b98a6769e41</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT</TRNTYPE>
+                        <DTPOSTED>20240911000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>100.00</TRNAMT>
+                        <FITID>66e245dc-7831-4ab1-81fc-fdb1ea56f7b0</FITID>
+                        <MEMO>Pagamento recebido</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240911000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-7.90</TRNAMT>
+                        <FITID>66e0c1c3-c7e5-4624-b46a-c890188dc196</FITID>
+                        <MEMO>Mr Cheney</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240911000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.30</TRNAMT>
+                        <FITID>66e07ffd-94b2-45f4-bcc9-98d9ac280746</FITID>
+                        <MEMO>Vita Mia e Cia</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240911000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-13.39</TRNAMT>
+                        <FITID>66e0380a-d75f-484b-b972-518af23b6b4f</FITID>
+                        <MEMO>Oxxo Estacao Higienopo</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240911000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-41.80</TRNAMT>
+                        <FITID>66e0b97c-0a88-4539-b585-e4d59e685491</FITID>
+                        <MEMO>Bela de Higienopolis</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240911000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-49.90</TRNAMT>
+                        <FITID>66e0662e-b861-4021-9d8f-9cf5c4160f7d</FITID>
+                        <MEMO>Apple.Com/Bill</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240911000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.00</TRNAMT>
+                        <FITID>66e0710b-5776-45fa-a5aa-9d07000ab46b</FITID>
+                        <MEMO>Bar e Lanches la em Ca</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240911000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-1226.04</TRNAMT>
+                        <FITID>66e04608-704d-4c9c-bff7-a431426fe6ad</FITID>
+                        <MEMO>99*99pay Instituicao D</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240910000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-349.69</TRNAMT>
+                        <FITID>66df0c7f-b935-4064-872b-db29ff71319a</FITID>
+                        <MEMO>Net Pgt*Fatura Claro</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240910000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-21.60</TRNAMT>
+                        <FITID>66df2a7f-c0a8-41be-8b36-50027a7e21ac</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240910000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-1520.02</TRNAMT>
+                        <FITID>66ded7ff-9792-4552-86e8-9ab37e6e839e</FITID>
+                        <MEMO>99*99pay Instituicao D</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240910000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-6.00</TRNAMT>
+                        <FITID>66dee476-f8be-4b7e-9dd7-f0e2b8b677f1</FITID>
+                        <MEMO>Estrela da Consolacao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240910000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-21.72</TRNAMT>
+                        <FITID>66df2b8a-19bd-453b-b972-03800238b171</FITID>
+                        <MEMO>Acai da Barra Mackenzi</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240910000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.00</TRNAMT>
+                        <FITID>66df2014-d6a9-4d2a-8056-270b72da2e7c</FITID>
+                        <MEMO>Simpatia Gaucha Consol</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240910000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-20.18</TRNAMT>
+                        <FITID>66dee41c-3c05-4f5c-b340-052c02623818</FITID>
+                        <MEMO>Oxxo Galpao Consolacao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240910000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-26.00</TRNAMT>
+                        <FITID>66df9015-49dc-41d2-8837-912a1b756730</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240910000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-22.40</TRNAMT>
+                        <FITID>66df2439-b6b6-4660-9e0b-1aa68eb9b043</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240909000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.00</TRNAMT>
+                        <FITID>66ddc670-ddd3-4359-8c7a-0495c3b68f99</FITID>
+                        <MEMO>Bar e Lanches la em Ca</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240908000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.00</TRNAMT>
+                        <FITID>66dc7cff-a943-4d84-a510-7105c8e70cf3</FITID>
+                        <MEMO>Bar e Lanches la em Ca</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240908000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-88.30</TRNAMT>
+                        <FITID>66dcb014-2715-40a5-8822-d3bafe0f7f60</FITID>
+                        <MEMO>Mercado Extra-0056</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240908000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-9.00</TRNAMT>
+                        <FITID>66dc3081-9853-40f1-a8b4-97dedb5a96b6</FITID>
+                        <MEMO>Mp *Frutariadalou</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240908000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-9.70</TRNAMT>
+                        <FITID>66dc2fe7-0703-46b2-86f8-34097915e1b0</FITID>
+                        <MEMO>Supermercado Uniao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240908000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-27.84</TRNAMT>
+                        <FITID>66dcca7b-c210-47f2-9439-c8ff9fc3e4de</FITID>
+                        <MEMO>Mercado Extra-0056</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240907000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-16.00</TRNAMT>
+                        <FITID>66db7083-6781-4a08-9b3c-eef1a59c62fa</FITID>
+                        <MEMO>Bar do Ze da Maria An</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240907000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.00</TRNAMT>
+                        <FITID>66db2be7-5c91-44ea-bfbe-7c5e9239bae2</FITID>
+                        <MEMO>Simpatia Gaucha Consol</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240907000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-24.68</TRNAMT>
+                        <FITID>66daf28f-5412-4193-9fe9-3d45583c5c92</FITID>
+                        <MEMO>Oxxo Estacao Higienopo</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240907000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-212.30</TRNAMT>
+                        <FITID>66db3898-1509-4611-aeed-f91ad68f04d5</FITID>
+                        <MEMO>Kalunga Consolacao - Parcela 1/3</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240907000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-19.10</TRNAMT>
+                        <FITID>66db3961-62f9-4715-9cb0-112d614f4213</FITID>
+                        <MEMO>Vita Mia e Cia</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240907000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-22.40</TRNAMT>
+                        <FITID>66db3821-7b5c-4868-8f2f-6ad669af53ae</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240907000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-22.80</TRNAMT>
+                        <FITID>66db3066-8264-420f-99c9-b6dfdcb1d7b7</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240906000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-4.00</TRNAMT>
+                        <FITID>66d98b4f-dfad-4c9c-9f2e-c732e8b0917c</FITID>
+                        <MEMO>Mp *Frutariadalou</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240906000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-31.34</TRNAMT>
+                        <FITID>66da3250-1518-47f5-81a3-da28b0fa0996</FITID>
+                        <MEMO>W e Mercado</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240906000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-14.80</TRNAMT>
+                        <FITID>66d9ee7d-452e-4536-99ba-4bb91d4e456f</FITID>
+                        <MEMO>Farmalise</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240906000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-30.10</TRNAMT>
+                        <FITID>66d98a44-429d-4b5d-8b33-4c3f48707421</FITID>
+                        <MEMO>Supermercado Uniao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240906000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-67.79</TRNAMT>
+                        <FITID>66d8e3d0-5088-4001-971c-148f9ac61251</FITID>
+                        <MEMO>Ifd*Banri Alimentos</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240906000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-21.20</TRNAMT>
+                        <FITID>66d9d96b-2ad6-48e1-b816-a7c2533e7df6</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240906000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-19.39</TRNAMT>
+                        <FITID>66d9a075-9288-4ada-accc-833d1844ceba</FITID>
+                        <MEMO>Oxxo Estacao Higienopo</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240906000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.00</TRNAMT>
+                        <FITID>66d9da12-617c-44e4-80be-5dc6e6ad0016</FITID>
+                        <MEMO>Bar e Lanches la em Ca</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240906000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.00</TRNAMT>
+                        <FITID>66d9bcc8-dfa0-4aa6-ba03-dab0e4097d6e</FITID>
+                        <MEMO>Mp *Restaurantedarose</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240906000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-12.00</TRNAMT>
+                        <FITID>66da25d5-69fe-4a2a-bc41-d38c4d138cac</FITID>
+                        <MEMO>Supermercado Uniao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240906000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-22.00</TRNAMT>
+                        <FITID>66d9e747-e730-42b7-b538-5c2d032d465d</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240905000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.00</TRNAMT>
+                        <FITID>66d887bd-95bc-4d2d-b40c-148f7ea21efd</FITID>
+                        <MEMO>Bar e Lanches la em Ca</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240905000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-23.09</TRNAMT>
+                        <FITID>66d85020-4145-4099-b8a6-6cab162ab4ff</FITID>
+                        <MEMO>Oxxo Estacao Higienopo</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240905000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-21.60</TRNAMT>
+                        <FITID>66d8940b-5e43-47e4-96c5-49e3c2f4ca01</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240905000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-38.19</TRNAMT>
+                        <FITID>66d8d455-bfe7-4c5d-9d41-af408db4217a</FITID>
+                        <MEMO>Mercado Extra-0056</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240905000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-20.40</TRNAMT>
+                        <FITID>66d88734-2b70-4b31-a51b-f8770fed8d82</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240905000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-91.78</TRNAMT>
+                        <FITID>66d8cee7-f1f1-40dd-ab4b-24339772cff8</FITID>
+                        <MEMO>Drogasil1040</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240905000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-67.79</TRNAMT>
+                        <FITID>66d791e2-c055-4909-a302-367b3907ab84</FITID>
+                        <MEMO>Ifd*Banri Alimentos</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240904000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.00</TRNAMT>
+                        <FITID>66d7370d-fe5f-47cb-81c8-44bd530d33a3</FITID>
+                        <MEMO>Simpatia Gaucha Consol</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240904000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-22.00</TRNAMT>
+                        <FITID>66d73b26-0ad9-4181-94af-f4ee7ce01f09</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240904000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-22.40</TRNAMT>
+                        <FITID>66d74336-b959-4efc-9c02-62b21b75b57d</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240904000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-4.82</TRNAMT>
+                        <FITID>66d6e5cc-c9ee-4fb5-9fcd-2c9f260b681e</FITID>
+                        <MEMO>Supermercado Uniao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240904000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-161.90</TRNAMT>
+                        <FITID>66d76bf6-224e-407c-97aa-c264d4843455</FITID>
+                        <MEMO>Ctv Pgto Fatura</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240904000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-61.95</TRNAMT>
+                        <FITID>66d76a47-48b3-4ef4-a437-ff456beafb99</FITID>
+                        <MEMO>Conta Vivo</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240904000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-330.00</TRNAMT>
+                        <FITID>66d76ac5-7003-4fa7-9989-7f003a467e48</FITID>
+                        <MEMO>Conta Vivo</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240904000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-169.23</TRNAMT>
+                        <FITID>66d76b73-306d-4cd9-a7ef-4f142944d621</FITID>
+                        <MEMO>Flexpag *Enelsp</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240904000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-22.45</TRNAMT>
+                        <FITID>66d743f8-0e8f-4708-8021-9315eae6b466</FITID>
+                        <MEMO>Acai da Barra Mackenzi</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240904000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-14.50</TRNAMT>
+                        <FITID>66d6fc03-c730-46f0-ba01-840620d1b716</FITID>
+                        <MEMO>Charme de Higienopolis</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240904000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-3.25</TRNAMT>
+                        <FITID>66d6e70b-2aa1-4003-b564-777e0445ee02</FITID>
+                        <MEMO>Josecildode</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT</TRNTYPE>
+                        <DTPOSTED>20240903000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>4911.95</TRNAMT>
+                        <FITID>66d72d84-0ffc-460a-8885-a8ecb7d9b403</FITID>
+                        <MEMO>Pagamento recebido</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240903000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-14.20</TRNAMT>
+                        <FITID>66d6534a-216d-4523-b8fc-b3c9a944dfff</FITID>
+                        <MEMO>Vita Mia e Cia</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240903000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-37.74</TRNAMT>
+                        <FITID>66d5eb30-7eef-4a39-bf3c-3b4256655515</FITID>
+                        <MEMO>Restaurante</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240903000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-28.00</TRNAMT>
+                        <FITID>66d5aae8-5ae3-42c3-8c0b-4a612955136f</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240903000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-0.77</TRNAMT>
+                        <FITID>66d47bb7-9205-4a46-9e01-9f7127623e07</FITID>
+                        <MEMO>IOF de "Steam Purchase"</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240903000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-6.00</TRNAMT>
+                        <FITID>66d5ab82-2d05-4513-bb08-669379625848</FITID>
+                        <MEMO>Estrela da Consolacao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240903000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-157.41</TRNAMT>
+                        <FITID>66d5bddc-8aa9-43d2-a424-697051449e74</FITID>
+                        <MEMO>Claro P*Fatura Claro</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240903000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-105.68</TRNAMT>
+                        <FITID>66d4d9e0-f1d3-4d0c-b49d-60d95356621c</FITID>
+                        <MEMO>Ifd*Salt Point Super L</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240903000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-9.37</TRNAMT>
+                        <FITID>66d62d52-237b-476c-ab88-3a43e05305c5</FITID>
+                        <MEMO>Supermercado Uniao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240903000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-71.60</TRNAMT>
+                        <FITID>66d5bdea-655e-4d27-a471-26b42e9c01dc</FITID>
+                        <MEMO>Vindi *Ovodeitu</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240903000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-39.95</TRNAMT>
+                        <FITID>66d629f7-6a92-4d4d-ae80-16011c783437</FITID>
+                        <MEMO>Lojas Impacto - Parcela 1/2</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240903000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-19.60</TRNAMT>
+                        <FITID>66d5e4f6-298e-4731-a738-bfce5b50b5ae</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240903000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-26.00</TRNAMT>
+                        <FITID>66d652d2-339c-4b14-8b41-4ecfbeb1d1b9</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240903000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-59.58</TRNAMT>
+                        <FITID>66d5f0c8-93a1-40fe-bdcb-5b723020c8b8</FITID>
+                        <MEMO>Pao de Acucar-1202</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240903000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-22.67</TRNAMT>
+                        <FITID>66d6351d-a6e2-4aa2-b53a-5ae5efbd55aa</FITID>
+                        <MEMO>W e Mercado</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240903000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-22.50</TRNAMT>
+                        <FITID>66d5e66a-37a7-4494-81e7-4c202540e5d1</FITID>
+                        <MEMO>Haikai Presentes</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240903000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-17.76</TRNAMT>
+                        <FITID>66d47bb7-9205-4a46-9e01-9f7127623e07</FITID>
+                        <MEMO>Steam Purchase</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240903000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-41.90</TRNAMT>
+                        <FITID>66d5cff3-03fa-4545-9695-370513873c69</FITID>
+                        <MEMO>Google Youtubepremium</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240902000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.00</TRNAMT>
+                        <FITID>66d48db8-e49a-48e1-8975-ad7c883e1540</FITID>
+                        <MEMO>Bar e Lanches la em Ca</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240902000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-16.60</TRNAMT>
+                        <FITID>66d44695-5b8d-445b-9b5c-6fa463e01421</FITID>
+                        <MEMO>Supermercado Uniao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240902000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.68</TRNAMT>
+                        <FITID>66d4fca4-b064-476c-aff7-a7ca65cffaf5</FITID>
+                        <MEMO>Mercado Extra-0056</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240901000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-40.59</TRNAMT>
+                        <FITID>66d389fe-b98e-4581-a2bc-afbfd035902b</FITID>
+                        <MEMO>Mercado Extra-0056</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240901000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-7.00</TRNAMT>
+                        <FITID>66d2f248-2934-466f-aecc-5b529f169e97</FITID>
+                        <MEMO>Leilamarialopesde</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240901000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-86.29</TRNAMT>
+                        <FITID>66d249ba-b3c1-4807-9ccd-df8c330e3b0d</FITID>
+                        <MEMO>Ifd*Banri Alimentos</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240901000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-4.20</TRNAMT>
+                        <FITID>66d2f0c8-3e5a-4bc3-9025-b6078b760dd9</FITID>
+                        <MEMO>Supermercado Uniao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240901000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.00</TRNAMT>
+                        <FITID>66d342bb-7ff6-446c-8af9-943fe1387499</FITID>
+                        <MEMO>Bar e Lanches la em Ca</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240901000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-5.97</TRNAMT>
+                        <FITID>66d38b61-7292-471b-b6c1-dd4f80933865</FITID>
+                        <MEMO>M Tobias Lima Comercio</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240901000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-49.40</TRNAMT>
+                        <FITID>66d38a42-ce60-4f0f-b5e0-76db5d9f94a6</FITID>
+                        <MEMO>Supermercado Uniao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240831000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-6.00</TRNAMT>
+                        <FITID>66d1b6cf-5e8b-40cc-9ef0-b8d585a41d51</FITID>
+                        <MEMO>Estrela da Consolacao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240831000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-85.92</TRNAMT>
+                        <FITID>66d23a1e-d205-4227-96b8-e3d80e38d3db</FITID>
+                        <MEMO>Drogasil1040</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240831000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-10.80</TRNAMT>
+                        <FITID>66d1ff77-680b-4864-a52d-851875e95078</FITID>
+                        <MEMO>Vita Mia e Cia</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240831000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-22.00</TRNAMT>
+                        <FITID>66d1f1c9-9a71-458a-828f-3836eedf32cf</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240831000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-67.17</TRNAMT>
+                        <FITID>66d1a425-d875-4dcb-b74b-47602b507254</FITID>
+                        <MEMO>Supermercado Uniao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240831000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-30.80</TRNAMT>
+                        <FITID>66d1b645-d193-4871-8a7f-047684bf3107</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240831000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-137.54</TRNAMT>
+                        <FITID>66d10e10-3982-4a73-a14b-4733f150909a</FITID>
+                        <MEMO>Aliexpress</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240831000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-110.79</TRNAMT>
+                        <FITID>66d0ecfb-94a9-4c2c-a33b-71d3d9253141</FITID>
+                        <MEMO>Ifd*Salt Point Super L</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240831000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-267.51</TRNAMT>
+                        <FITID>66d1f795-090c-4caf-9780-9302cccbd2bf</FITID>
+                        <MEMO>Azul Linhas Bw6yyk - Parcela 1/6</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240831000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-26.08</TRNAMT>
+                        <FITID>66d1b79e-74a6-4637-9c03-180a5762c141</FITID>
+                        <MEMO>Oxxo Galpao Consolacao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240831000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-24.00</TRNAMT>
+                        <FITID>66d23d09-e8e8-4ba8-9bb2-94359fee49fc</FITID>
+                        <MEMO>Drogaria Popular do Pa</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240831000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.00</TRNAMT>
+                        <FITID>66d1f26d-498a-4570-bac6-f0c17f3ed9b8</FITID>
+                        <MEMO>Bar e Lanches la em Ca</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240830000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-265.99</TRNAMT>
+                        <FITID>66cf72d5-5a6d-47b5-8fd3-15f9aac34ced</FITID>
+                        <MEMO>Azul Linhas Aereas - Parcela 4/6</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240830000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-265.99</TRNAMT>
+                        <FITID>66cf72d5-5a6d-47b5-8fd3-15f9aac34ced</FITID>
+                        <MEMO>Azul Linhas Aereas - Parcela 6/6</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240830000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-233.72</TRNAMT>
+                        <FITID>66b35141-fa59-44b7-856d-1cc75d6308e1</FITID>
+                        <MEMO>Mercadolivre*Mornings - Parcela 7/10</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240830000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-40.36</TRNAMT>
+                        <FITID>66d0ec0f-6b7b-4266-ab68-45268686f2d2</FITID>
+                        <MEMO>Supermercado Uniao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240830000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-6.00</TRNAMT>
+                        <FITID>66d0650c-0bc6-4be9-a77b-cdd11a15f625</FITID>
+                        <MEMO>Estrela da Consolacao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240830000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-24.00</TRNAMT>
+                        <FITID>66d0aefc-2569-48cd-a1a3-fab1aa6d4922</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240830000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-233.72</TRNAMT>
+                        <FITID>66b35141-fa59-44b7-856d-1cc75d6308e1</FITID>
+                        <MEMO>Mercadolivre*Mornings - Parcela 3/10</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240830000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-26.22</TRNAMT>
+                        <FITID>66d0eb58-8e10-4ea8-9997-4e5bb6f3d934</FITID>
+                        <MEMO>W e Mercado</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240830000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-265.99</TRNAMT>
+                        <FITID>66cf72d5-5a6d-47b5-8fd3-15f9aac34ced</FITID>
+                        <MEMO>Azul Linhas Aereas - Parcela 2/6</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240830000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-233.72</TRNAMT>
+                        <FITID>66b35141-fa59-44b7-856d-1cc75d6308e1</FITID>
+                        <MEMO>Mercadolivre*Mornings - Parcela 6/10</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240830000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-233.72</TRNAMT>
+                        <FITID>66b35141-fa59-44b7-856d-1cc75d6308e1</FITID>
+                        <MEMO>Mercadolivre*Mornings - Parcela 5/10</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240830000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-14.80</TRNAMT>
+                        <FITID>66d0afe7-ba2c-4b7c-b23a-8c865cc4b628</FITID>
+                        <MEMO>Farmalise</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT</TRNTYPE>
+                        <DTPOSTED>20240830000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>32.93</TRNAMT>
+                        <FITID>66cf72d5-5a6d-47b5-8fd3-15f9aac34ced</FITID>
+                        <MEMO>Desconto Antecipação Azul Linhas Aereas</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240830000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-233.72</TRNAMT>
+                        <FITID>66b35141-fa59-44b7-856d-1cc75d6308e1</FITID>
+                        <MEMO>Mercadolivre*Mornings - Parcela 8/10</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240830000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-233.72</TRNAMT>
+                        <FITID>66b35141-fa59-44b7-856d-1cc75d6308e1</FITID>
+                        <MEMO>Mercadolivre*Mornings - Parcela 9/10</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240830000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-265.99</TRNAMT>
+                        <FITID>66cf72d5-5a6d-47b5-8fd3-15f9aac34ced</FITID>
+                        <MEMO>Azul Linhas Aereas - Parcela 3/6</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240830000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.00</TRNAMT>
+                        <FITID>66d09feb-6302-4cbd-afed-56cd1ed5267b</FITID>
+                        <MEMO>Simpatia Gaucha Consol</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240830000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-90.99</TRNAMT>
+                        <FITID>66cfa9e9-f9b7-46d3-9aee-d7488826ec1e</FITID>
+                        <MEMO>Ifd*Lanchonete Mugui L</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240830000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-10.00</TRNAMT>
+                        <FITID>66cfb08f-6ad7-4838-aec0-b830aee730da</FITID>
+                        <MEMO>Ifd*Matheus Cuevas</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240830000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-19.88</TRNAMT>
+                        <FITID>66d0b05c-df1f-4605-bc7e-972a77f4381d</FITID>
+                        <MEMO>Oxxo Galpao Consolacao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240830000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-233.72</TRNAMT>
+                        <FITID>66b35141-fa59-44b7-856d-1cc75d6308e1</FITID>
+                        <MEMO>Mercadolivre*Mornings - Parcela 10/10</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240830000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-20.40</TRNAMT>
+                        <FITID>66d0a2dc-aa66-4bc8-8f10-f35b0db2bf2d</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240830000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-265.99</TRNAMT>
+                        <FITID>66cf72d5-5a6d-47b5-8fd3-15f9aac34ced</FITID>
+                        <MEMO>Azul Linhas Aereas - Parcela 5/6</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT</TRNTYPE>
+                        <DTPOSTED>20240830000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>68.87</TRNAMT>
+                        <FITID>66b35141-fa59-44b7-856d-1cc75d6308e1</FITID>
+                        <MEMO>Desconto Antecipação Mercadolivre*Mornings</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240830000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-233.72</TRNAMT>
+                        <FITID>66b35141-fa59-44b7-856d-1cc75d6308e1</FITID>
+                        <MEMO>Mercadolivre*Mornings - Parcela 4/10</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240829000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-70.20</TRNAMT>
+                        <FITID>66cf7ccb-303d-41c2-8b11-9025e31df142</FITID>
+                        <MEMO>Leandrotaxi</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240829000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-115.06</TRNAMT>
+                        <FITID>66cfcd46-48c4-42a8-baf6-ddc9bd593976</FITID>
+                        <MEMO>Openai *Chatgpt Subscr</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240829000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-30.40</TRNAMT>
+                        <FITID>66cf15f6-52d6-4d6c-ba35-46adfaede115</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240829000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-4.81</TRNAMT>
+                        <FITID>66cf9d08-05c5-4bc6-b00c-de8ab46247e3</FITID>
+                        <MEMO>Mercado Extra-0056</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240829000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-22.40</TRNAMT>
+                        <FITID>66cf6aa7-e94d-43e3-898e-71ea677461d8</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240829000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-266.04</TRNAMT>
+                        <FITID>66cf72d5-5a6d-47b5-8fd3-15f9aac34ced</FITID>
+                        <MEMO>Azul Linhas Aereas - Parcela 1/6</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240829000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-10.00</TRNAMT>
+                        <FITID>66cf405d-ca65-460b-bbc1-d2793f4091db</FITID>
+                        <MEMO>Segredo Assados</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240829000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-18.08</TRNAMT>
+                        <FITID>66cf5c2b-450f-44fd-8800-7ffd50c1830c</FITID>
+                        <MEMO>Acai da Barra Mackenzi</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240829000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-59.18</TRNAMT>
+                        <FITID>66cfad4e-d594-499f-80e2-90da0c056ee9</FITID>
+                        <MEMO>Cfn Food Hall Quente</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240829000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-13.57</TRNAMT>
+                        <FITID>66cf7d90-6015-4436-8572-16cf0c06cfa0</FITID>
+                        <MEMO>Oxxo Galpao Consolacao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240829000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-61.20</TRNAMT>
+                        <FITID>66cf71ab-0969-4bd0-9733-f27e04e13670</FITID>
+                        <MEMO>Mp *Taxifabio</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240829000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-6.00</TRNAMT>
+                        <FITID>66cf16bc-bdb3-45dd-83c5-043978e9b201</FITID>
+                        <MEMO>Estrela da Consolacao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240829000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.00</TRNAMT>
+                        <FITID>66cf5140-e5be-4ffa-8ed0-e964d3790371</FITID>
+                        <MEMO>Simpatia Gaucha Consol</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240829000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-55.00</TRNAMT>
+                        <FITID>66cf3bb1-ba2d-4007-86a5-63999914aaf5</FITID>
+                        <MEMO>Josejailsonmoreir</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240829000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-5.03</TRNAMT>
+                        <FITID>66cfcd46-48c4-42a8-baf6-ddc9bd593976</FITID>
+                        <MEMO>IOF de "Openai *Chatgpt Subscr"</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240828000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-47.00</TRNAMT>
+                        <FITID>66cdf4c4-dfba-412d-8c90-43d964b9f336</FITID>
+                        <MEMO>Roldao Mooca</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT</TRNTYPE>
+                        <DTPOSTED>20240828000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>4376.65</TRNAMT>
+                        <FITID>66cf5d4a-e230-4509-95c7-34f1cabc2530</FITID>
+                        <MEMO>Pagamento recebido</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240828000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-5.00</TRNAMT>
+                        <FITID>66ce189c-ee7d-47b4-b132-ef703fc690f7</FITID>
+                        <MEMO>Sesc Carmo</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240828000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.00</TRNAMT>
+                        <FITID>66cdfdaa-e50f-43dd-a66a-7b58e1cc058f</FITID>
+                        <MEMO>Simpatia Gaucha Consol</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240828000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-21.00</TRNAMT>
+                        <FITID>66ce04fe-7f5c-49a1-8077-efeba22ba7f1</FITID>
+                        <MEMO>Vita Mia e Cia</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240828000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-7.90</TRNAMT>
+                        <FITID>66ce46b7-6904-4ddd-be51-ec8831db295f</FITID>
+                        <MEMO>Mr Cheney</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240828000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-26.80</TRNAMT>
+                        <FITID>66cdc305-a120-4ece-b401-8a902a87e711</FITID>
+                        <MEMO>99app *99app</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240828000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-14.21</TRNAMT>
+                        <FITID>66cdd3e1-1282-4fe3-ba57-f4e8d61fa314</FITID>
+                        <MEMO>Ca Foods</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240828000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-16.00</TRNAMT>
+                        <FITID>66ce3ff3-f651-48d7-bbc7-8c7a45f9dab6</FITID>
+                        <MEMO>Bar do Ze</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240827000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-6.00</TRNAMT>
+                        <FITID>66cc7023-15cc-45c8-bc20-9bba42d2b684</FITID>
+                        <MEMO>Estrela da Consolacao</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240827000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-23.24</TRNAMT>
+                        <FITID>66cc766c-fd3f-445d-a78f-e0561d6b334f</FITID>
+                        <MEMO>Mercado Extra-0056</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240827000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-10.00</TRNAMT>
+                        <FITID>66cbb522-28b6-4f06-b195-29a3b4a97be9</FITID>
+                        <MEMO>Ifd*Marcelo da Silva P</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240827000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-226.64</TRNAMT>
+                        <FITID>66ccb45e-e185-4777-a038-438fa5b899f1</FITID>
+                        <MEMO>Kalunga Consolacao - Parcela 1/3</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240827000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-25.00</TRNAMT>
+                        <FITID>66ccac64-a860-43ce-a90a-78c7b5a1b93f</FITID>
+                        <MEMO>Simpatia Gaucha Consol</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240827000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-17.10</TRNAMT>
+                        <FITID>66ccb542-6880-4af2-a605-8abfd203d8b8</FITID>
+                        <MEMO>Vita Mia e Cia</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240827000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-160.77</TRNAMT>
+                        <FITID>66cba977-e197-49f5-a5e2-d506278d20a4</FITID>
+                        <MEMO>Ifd*Salt Point Super L</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240826000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-8.79</TRNAMT>
+                        <FITID>66cbdb1b-e771-4ec2-a762-1aabaa7e32bb</FITID>
+                        <MEMO>IOF de "Languagetool"</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240826000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-52.62</TRNAMT>
+                        <FITID>66cc5042-b1f5-4246-9b8c-6ac46a4ded24</FITID>
+                        <MEMO>Nubank Vida</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240826000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-200.87</TRNAMT>
+                        <FITID>66cbdb1b-e771-4ec2-a762-1aabaa7e32bb</FITID>
+                        <MEMO>Languagetool</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240825000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-8.80</TRNAMT>
+                        <FITID>66ca273a-4aee-4514-9135-d1854737a21a</FITID>
+                        <MEMO>Mix Mercadinho</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240825000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-50.50</TRNAMT>
+                        <FITID>66ad5114-5a58-473c-8f61-a612d904f99a</FITID>
+                        <MEMO>Kalunga Consolacao - Parcela 2/3</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240825000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-38.25</TRNAMT>
+                        <FITID>66bcf805-66c3-4d0c-966b-ebcef19fc07a</FITID>
+                        <MEMO>Lojao do Bras - Parcela 2/2</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240825000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-4.99</TRNAMT>
+                        <FITID>66c9ee00-3b94-4f6e-9755-0ff7fd4987b8</FITID>
+                        <MEMO>W e Mercado</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240825000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-540.02</TRNAMT>
+                        <FITID>66c62204-e849-472f-ba34-1ecbcddd310d</FITID>
+                        <MEMO>Mercadolivre*Ferragen - Parcela 2/3</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240825000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-73.00</TRNAMT>
+                        <FITID>66aed275-feef-4b87-b6dc-8b92325703ce</FITID>
+                        <MEMO>Pb*Ubiquiti - Parcela 2/3</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240825000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-233.72</TRNAMT>
+                        <FITID>66b35141-fa59-44b7-856d-1cc75d6308e1</FITID>
+                        <MEMO>Mercadolivre*Mornings - Parcela 2/10</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240825000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-27.75</TRNAMT>
+                        <FITID>66ba57a3-8b27-4d5e-8389-3fd53ae51f22</FITID>
+                        <MEMO>Atacadao 340 As - Parcela 2/2</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240825000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-4.40</TRNAMT>
+                        <FITID>66c9dea1-d7ce-4df5-969c-95d4eb4764c1</FITID>
+                        <MEMO>Mercado Extra-0056</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240825000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-11.50</TRNAMT>
+                        <FITID>66c9e034-4c0b-421d-a08c-6fbba6b4b70a</FITID>
+                        <MEMO>Mercearia e Norte</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240825000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-74.99</TRNAMT>
+                        <FITID>66c74420-1913-412d-8744-d0032efe56b9</FITID>
+                        <MEMO>Decathlon - Parcela 2/2</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240825000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-26.55</TRNAMT>
+                        <FITID>66bcbdfd-23e9-47f8-b05e-298402f3db11</FITID>
+                        <MEMO>Perfumaria Princesa - Parcela 2/2</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240825000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-79.99</TRNAMT>
+                        <FITID>66c5fa8f-6094-4f58-a83b-e4646dfed3f5</FITID>
+                        <MEMO>Cea Sit 283 Ecpc - Parcela 2/3</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20240825000000[-3:BRT]</DTPOSTED>
+                        <TRNAMT>-10.00</TRNAMT>
+                        <FITID>66ca1ded-0e43-4c88-9abb-07c087aa1534</FITID>
+                        <MEMO>Luceliasilvafonse</MEMO>
+                    </STMTTRN>
+                </BANKTRANLIST>
+                <LEDGERBAL>
+                    <BALAMT>-1518.08</BALAMT>
+                    <DTASOF>20240924000000[-3:BRT]</DTASOF>
+                </LEDGERBAL>
+            </CCSTMTRS>
+        </CCSTMTTRNRS>
+    </CREDITCARDMSGSRSV1>
+</OFX>
