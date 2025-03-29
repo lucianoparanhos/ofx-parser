@@ -19,10 +19,7 @@ let package = Package(
         ),
         .testTarget(
             name: "OFXParserTests",
-            dependencies: ["OFXParser"],
-            swiftSettings: [
-                .enableExperimentalFeature("SwiftTesting")
-            ]
+            dependencies: ["OFXParser"]
         ),
     ]
 )
