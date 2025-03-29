@@ -8,8 +8,9 @@
 public struct TransacaoParser {
     public static func extrairTransacoes(ofxContent: String) -> [Transacao] {
         var transacoes: [Transacao] = []
+        let conteudoNormalizado = normalizar(ofx: ofxContent)
 
-        let blocos = ofxContent.components(separatedBy: "<STMTTRN>").dropFirst()
+        let blocos = conteudoNormalizado.components(separatedBy: "<STMTTRN>").dropFirst()
 
         for bloco in blocos {
             guard let fim = bloco.range(of: "</STMTTRN>") else { continue }
@@ -36,6 +37,17 @@ public struct TransacaoParser {
         }
 
         return transacoes
+    }
+
+    internal static func normalizar(ofx: String) -> String {
+        return ofx
+            .components(separatedBy: .newlines)
+            .map{ $0.trimmingCharacters(in: .whitespaces)}
+            .joined()
+            .replacingOccurrences(of: "> ", with: ">")
+            .replacingOccurrences(of: " <", with: "<")
+            .replacingOccurrences(of: "(>\\s+)", with: ">", options: .regularExpression)
+            .replacingOccurrences(of: "(\\s+<)", with: "<", options: .regularExpression)
     }
 
     private static func extrairValor(tag: String, em texto: String) -> String? {
