@@ -6,7 +6,7 @@
 //
 
 public enum TipoConta: String, Sendable {
-    case contaCorrente
-    case cartaoCredito
+    case contaCorrente = "<BANKMSGSRSV1>"
+    case cartaoCredito = "<CREDITCARDMSGSRSV1>"
     case desconhecida
 }

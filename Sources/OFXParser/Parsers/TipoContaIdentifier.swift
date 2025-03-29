@@ -6,17 +6,14 @@
 //
 
 public struct TipoContaIdentifier {
-    private static let mapeamento: [String: TipoConta] = [
-        "<CREDITCARDMSGSRSV1>": .cartaoCredito,
-        "<BANKMSGSRSV1>": .contaCorrente
-    ]
-
     public static func identificar(ofxContent: String) -> TipoConta {
-        for (chave, tipo) in mapeamento {
-            if ofxContent.contains(chave) {
-                return tipo
+
+        for tipoConta in [TipoConta.cartaoCredito, TipoConta.contaCorrente] {
+            if ofxContent.contains(tipoConta.rawValue) {
+                return tipoConta
             }
         }
+
         return .desconhecida
     }
 }
