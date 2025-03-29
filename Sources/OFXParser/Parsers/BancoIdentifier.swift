@@ -5,19 +5,15 @@
 //  Created by Luciano Paranhos on 27/03/25.
 //
 
-import Foundation
-
 public struct BancoIdentifier {
-    private static let bancoPorId: [String: Banco] = [
-        "260": .nubank,
-        "237": .bradesco
-    ]
 
     public static func identificar(ofxContent: String) -> Banco {
         guard let idEncontrado = extrairIdentificadorBancario(de: ofxContent),
-              let banco = bancoPorId[idEncontrado] else {
+              let id = UInt16(idEncontrado),
+              let banco = Banco(rawValue: id) else {
             return .desconhecido
         }
+        
         return banco
     }
 
