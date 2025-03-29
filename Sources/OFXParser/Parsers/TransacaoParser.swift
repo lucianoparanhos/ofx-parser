@@ -7,9 +7,9 @@
 
 public struct TransacaoParser {
     public static func extrairTransacoes(ofxContent: String) -> [Transacao] {
-        var transacoes: [Transacao] = []
         let conteudoNormalizado = normalizar(ofx: ofxContent)
 
+        var transacoes: [Transacao] = []
         let blocos = conteudoNormalizado.components(separatedBy: "<STMTTRN>").dropFirst()
 
         for bloco in blocos {
@@ -50,18 +50,18 @@ public struct TransacaoParser {
             .replacingOccurrences(of: "(\\s+<)", with: "<", options: .regularExpression)
     }
 
-    private static func extrairValor(tag: String, em texto: String) -> String? {
+    internal static func extrairValor(tag: String, em texto: String) -> String? {
         guard let range = texto.range(of: "<\(tag)>") else { return nil }
         let inicio = texto[range.upperBound...]
         return inicio.split(separator: "<", maxSplits: 1).first.map { String($0).trimmingCharacters(in: .whitespacesAndNewlines) }
     }
 
-    private static func extrairDouble(tag: String, em texto: String) -> Double? {
+    internal static func extrairDouble(tag: String, em texto: String) -> Double? {
         guard let valorStr = extrairValor(tag: tag, em: texto) else { return nil }
         return Double(valorStr.replacingOccurrences(of: ",", with: "."))
     }
 
-    private static func extrairData(tag: String, em texto: String) -> Date? {
+    internal static func extrairData(tag: String, em texto: String) -> Date? {
         guard let dataStr = extrairValor(tag: tag, em: texto) else { return nil }
 
         let formatos = ["yyyyMMddHHmmss", "yyyyMMdd"]
