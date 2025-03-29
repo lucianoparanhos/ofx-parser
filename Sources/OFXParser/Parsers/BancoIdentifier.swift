@@ -18,7 +18,7 @@ public struct BancoIdentifier {
     }
 
     private static func extrairIdentificadorBancario(de texto: String) -> String? {
-        let patterns = ["<BANKID>(\\d+)", "<FID>(\\d+)"]
+        let patterns = ["<FID>(\\d+)", "<BANKID>(\\d+)"]
 
         for pattern in patterns {
             if let regex = try? NSRegularExpression(pattern: pattern, options: .caseInsensitive),
