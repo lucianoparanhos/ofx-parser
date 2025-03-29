@@ -5,8 +5,6 @@
 //  Created by Luciano Paranhos on 27/03/25.
 //
 
-import Foundation
-
 public struct OFXDocumentoParser {
     public static func parse(ofxContent: String) -> (banco: Banco, tipoConta: TipoConta, transacoes: [Transacao]) {
         let banco = BancoIdentifier.identificar(ofxContent: ofxContent)

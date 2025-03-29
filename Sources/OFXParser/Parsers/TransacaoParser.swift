@@ -5,8 +5,6 @@
 //  Created by Luciano Paranhos on 27/03/25.
 //
 
-import Foundation
-
 public struct TransacaoParser {
     public static func extrairTransacoes(ofxContent: String) -> [Transacao] {
         var transacoes: [Transacao] = []

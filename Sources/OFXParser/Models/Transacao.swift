@@ -5,8 +5,6 @@
 //  Created by Luciano Paranhos on 27/03/25.
 //
 
-import Foundation
-
 public struct Transacao: Sendable {
     public let tipo: String         // Ex: DEBIT ou CREDIT
     public let data: Date
